@@ -1,0 +1,17 @@
+{
+  "name": "@metabolic/core",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/core.ts",
+  "publishConfig": {
+    "main": "lib/core.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}

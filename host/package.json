@@ -1,0 +1,9 @@
+{
+  "name": "@metabolic/host",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@calory/launcher": "workspace:*",
+    "@calory/bridge": "workspace:*"
+  }
+}

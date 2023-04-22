@@ -1,0 +1,8 @@
+packages:
+  - 'core'
+  - 'app'
+  - 'host'
+  - '../calory/bridge'
+  - '../calory/vite-plugin'
+  - '../calory/launcher'
+  - '../calory/frontend'

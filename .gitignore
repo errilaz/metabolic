@@ -1,0 +1,4 @@
+app/dist
+host/bin
+core/lib
+node_modules

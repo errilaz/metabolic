@@ -1,0 +1,7 @@
+build:
+  @mkdir -p bin
+  @g++ -O -g src/host.cpp -o bin/host
+  @strip bin/host
+
+clean:
+  @rm -rf bin

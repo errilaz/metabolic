@@ -1,0 +1,10 @@
+{
+  "name": "metabolic",
+  "title": "Metabolic",
+  "version": "0.0.1",
+  "host": {
+    "linux": "host/bin/host",
+    "windows": "host/bin/host.exe",
+    "macos": "host/bin/host"
+  }
+}
