@@ -1,4 +1,5 @@
 app/dist
 host/bin
 core/lib
+build
 node_modules

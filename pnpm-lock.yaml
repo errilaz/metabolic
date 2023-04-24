@@ -22,14 +22,26 @@ importers:
     dependencies:
       '@calory/bridge': link:../bridge
 
+  ../calory/vite-plugin:
+    specifiers:
+      '@types/node': ^18.15.10
+      typescript: ^4.9.3
+      vite: ^4.2.0
+    devDependencies:
+      '@types/node': 18.15.11
+      typescript: 4.9.5
+      vite: 4.2.1_@types+node@18.15.11
+
   app:
     specifiers:
       '@calory/frontend': workspace:*
       '@metabolic/core': workspace:*
       '@types/node': ^18.15.10
+      minireset.css: ^0.0.7
       solid-js: ^1.6.15
       typescript: ^4.9.3
       vite: ^4.2.0
+      vite-plugin-calory: workspace:*
       vite-plugin-singlefile: ^0.13.5
       vite-plugin-solid: ^2.5.0
     dependencies:
@@ -38,8 +50,10 @@ importers:
       solid-js: 1.7.3
     devDependencies:
       '@types/node': 18.15.11
+      minireset.css: 0.0.7
       typescript: 4.9.5
       vite: 4.2.1_@types+node@18.15.11
+      vite-plugin-calory: link:../../calory/vite-plugin
       vite-plugin-singlefile: 0.13.5_vite@4.2.1
       vite-plugin-solid: 2.7.0_solid-js@1.7.3+vite@4.2.1
 
@@ -915,6 +929,10 @@ packages:
     dependencies:
       braces: 3.0.2
       picomatch: 2.3.1
+    dev: true
+
+  /minireset.css/0.0.7:
+    resolution: {integrity: sha512-raWKK2aHP/MI4Yu72dU6hade1YFuoyDQtSUi/FiIZfeRHjgL81uN/nFvG2aoAr+mseRc3jpg47jQqx1/+6w+kQ==}
     dev: true
 
   /ms/2.1.2:
